@@ -1,0 +1,204 @@
+* {
+    margin: 0%;
+}
+
+body{
+    background-color: #ffffff;
+    overflow: hidden;
+}
+
+.carre {
+    height: 200vh;
+    width:  100%;
+    background-color: darkorange;
+    float: right;
+    border-radius: 50px;
+    transform: rotate(53deg);
+    margin-right: -75%;
+    margin-top: -15%;
+    z-index: 12;
+}
+
+.h {
+    float: left;
+    margin-left: 60px;
+    margin-top: 50px;
+}
+
+.h .logo {
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    color: rgb(20, 19, 19);
+}
+.h .connexion {
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    color: rgb(20, 19, 19);
+    font-weight: normal;
+}
+
+.card {
+    float: right;
+    position: relative;
+    height: 550px;
+    width: 350px;
+    background-color: #ffffff;
+    box-shadow: 1px 1px 12px rgb(177, 168, 168);
+    right: -120px;
+    top: 18vh;
+}
+.card .img{
+    width: 100%;
+    height: 200px;
+    margin-top: 50px;
+    background-image: url(voiture.png);
+    background-position: center;
+    background-size: 110%;
+    background-repeat: no-repeat;
+    z-index: 30;
+    position: relative;
+}
+.card .rond{
+    float: right;
+    height: 200px;
+    width: 200px;
+    background-color: rgba(255, 187, 0, 0.5);
+    margin-right: 75px;
+    border-radius: 100px;
+    margin-top: -200px;
+    z-index: 20;
+}
+.card .texte {
+    margin-top: 30px;
+}
+.card .texte h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    color: rgb(20, 19, 19);
+}
+
+.card .texte .ul {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 20px;
+    font-size: 20px;
+    font-weight: normal;
+    text-align: center;
+    color: rgb(20, 19, 19);
+}
+
+.card .btn button {
+    float: left;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 40px;
+    padding-right: 40px;
+    background-color:  darkorange;
+    color: #ffffff;
+    border-color: darkorange;
+    text-align: center;
+    margin-left: 115px;
+    margin-top: 30px;
+    cursor: pointer;
+}
+
+.connaxion {
+    position: relative;
+    width: 500px;
+    height: 500px;
+    margin-left: 200px;
+    top: 250px;
+}
+.connaxion .titlec {
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 30px;
+    font-size: 40px;
+    font-weight: normal;
+}
+
+.alerte {
+    margin:auto;
+    position: absolute;
+    width: 60%;
+    height: 160px;
+    border-radius: 40px;
+    background-color: darkorange;
+    top: -80px;
+    left: 20%;
+    display: none;
+}
+.alerte h1 {
+    margin-top: 100px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    color: white;
+}
+.alerte h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: right;
+    color: white;
+    margin-right: 20px;
+    font-weight: normal;
+    cursor: pointer;
+}
+.alerte h2:hover{
+    text-decoration: underline;
+}
+
+form {
+    margin: 0 auto;
+    width: 450px;
+    padding: 1em;
+    border-radius: 1em;
+    margin-left: 80px;
+  }
+  
+  form div + div {
+    margin-top: 1em;
+  }
+  
+  label {
+    display: inline-block;
+    width: 90px;
+    text-align: right;
+    color: rgb(20, 19, 19);
+  }
+  input, textarea {
+    font: 1em sans-serif;
+    width: 300px;
+    box-sizing: border-box;
+    border: 3px solid #d9dee4;
+    background-color: #ffffff;
+  }
+  
+  input:focus, textarea:focus {
+    border-color: #f1f1f1;
+  }
+  
+  textarea {
+    vertical-align: top;
+    height: 5em;
+  }
+  
+  button {
+    text-align: left;
+    padding: 6px;
+    border: 3px solid darkorange;
+    background-color: darkorange;
+    color: #ffffff;
+    cursor: pointer;
+    float: left;
+  }
+
+  .h1 {
+      font-size: 15px;
+      float: left;
+      color: darkorange;
+      margin-left: 70px;
+      margin-top: 10px;
+      cursor: pointer;
+  }
+  .h1:hover {
+      text-decoration: underline;
+  }
